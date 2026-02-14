@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "yourdockerhubusername/static-webapp"
+        IMAGE_NAME = "venkateshjaggaraju/static-webapp"
         IMAGE_TAG = "v1"
         DOCKERHUB_CREDENTIALS = "dockerhub-creds"
     }
